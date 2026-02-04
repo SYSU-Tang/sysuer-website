@@ -11,7 +11,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: '中大儿',
-  tagline: '中大儿是一款为中山大学 (SYSU) 学子打造的非官方校园生活助手安卓软件。',
+  tagline: '中大儿是一款为中山大学 (SYSU) 学子打造的非官方校园生活助手。',
   favicon: 'img/favicon.png',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -50,7 +50,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/SYSU-Tang/sysuer-website/tree/main/docs/',
         },
         blog: {
           showReadingTime: true,

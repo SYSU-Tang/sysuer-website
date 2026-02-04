@@ -16,7 +16,7 @@ Sysuer 致力于解决中大同学在校园生活中遇到的痛点。不再需�
 
 开源链接：[https://github.com/sysu-tang/sysuer](https://github.com/sysu-tang/sysuer)
 
-下载链接：[中大儿v1.0.8](/static/apk/app-release-v1.0.8.apk)
+下载链接：[中大儿v1.0.8](https://sysu-tang.github.io/app-release-v1.0.8.apk)
 
 ## 🚀 主要功能
 

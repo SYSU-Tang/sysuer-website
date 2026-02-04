@@ -17,7 +17,7 @@ function HomepageHeader() {
         </Heading>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
 
-        <div style={{ display: 'flex', justifyContent: 'space-evenly' }}>
+        <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'space-evenly' }}>
           <div className={styles.buttons}>
             <Link
               className="button button--secondary button--lg"

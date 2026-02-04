@@ -28,7 +28,7 @@ const config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'SYSU-Tang', // Usually your GitHub org/user name.
-  projectName: 'Sysuer', // Usually your repo name.
+  projectName: 'sysuer-website', // Usually your repo name.
 
   onBrokenLinks: 'throw',
 

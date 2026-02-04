@@ -1,24 +1,23 @@
 name: 部署
 on:
-  push:
-    branches:
-      - main
+ push:
+   branches:
+     - main
 jobs:
-  build-and-deploy:
-    runs-on: ubuntu-latest
-    steps:
-    - name: Checkout
-      uses: actions/checkout@master
-      with:
-        persist-credentials: false
-    - name: Install and Build
-      run: |
-        npm install
-        npm run-script build 
-    - name: Deploy
-      uses: JamesIves/github-pages-deploy-action@releases/v3
-      with:
-        GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        BRANCH: gh-pages
-        FOLDER: build
-        BUILD_SCRIPT: npm install && npm run build
+ build-and-deploy:
+   runs-on: ubuntu-latest
+   steps:
+     - name: Checkout code
+       uses: actions/checkout@v3
+     - name: Install dependencies
+       run: |
+         npm install
+     - name: Build Docusaurus site
+       run: |
+         npm run build
+     - name: Deploy to GitHub Pages
+       uses: JamesIves/github-pages-deploy-action@v4
+       with:
+         branch: gh-pages
+         folder: build
+         token: ${{ secrets.GITHUB_TOKEN }}

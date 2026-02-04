@@ -3,6 +3,8 @@ title: 介绍
 description: 中大儿介绍
 sidebar_position: 1
 ---
+import '@material/web/all.js';
+
 # 介绍
 
 > Sysuer中大人的专属百宝箱，旨在打造一款为中山大学 (SYSU) 学子打造的非官方校园生活助手，集**教务**、**学工**、**生活**、**效率**工具于一体。
@@ -16,7 +18,7 @@ Sysuer 致力于解决中大同学在校园生活中遇到的痛点。不再需�
 
 开源链接：[https://github.com/sysu-tang/sysuer](https://github.com/sysu-tang/sysuer)
 
-下载链接：[中大儿v1.0.8](https://sysu-tang.github.io/app-release-v1.0.8.apk)
+下载链接：<md-filled-button icon="download" href="https://sysu-tang.github.io/app-release-v1.0.8.apk">中大儿v1.0.8</md-filled-button>
 
 ---
 

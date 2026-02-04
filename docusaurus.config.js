@@ -12,7 +12,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 const config = {
   title: '中大儿',
   tagline: '中大儿是一款为中山大学 (SYSU) 学子打造的非官方校园生活助手安卓软件。',
-  favicon: 'img/logo.png',
+  favicon: 'img/favicon.png',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {

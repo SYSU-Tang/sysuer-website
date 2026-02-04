@@ -50,7 +50,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/SYSU-Tang/sysuer-website/tree/main/docs/',
+            'https://github.com/SYSU-Tang/sysuer-website/tree/main/',
         },
         blog: {
           showReadingTime: true,

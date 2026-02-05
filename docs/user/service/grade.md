@@ -2,8 +2,10 @@
 title: 成绩
 description: 成绩功能介绍
 ---
+import '@material/web/all.js';
+
 # 成绩
-> 中大儿提供了两种查看成绩的方式，分别在**服务&rarr;教务&rarr;成绩** 和**服务&rarr;教务&rarr;等级制成绩**
+> 中大儿提供了两种查看成绩的方式，分别在 **服务&rarr;教务&rarr;成绩** 和 **服务&rarr;教务&rarr;等级制成绩**
 
 ## 成绩
 
@@ -38,14 +40,19 @@ description: 成绩功能介绍
 > 当选项为空，表示该选项被重置
 
 从左到右选项依次为
+<div style = {{display: 'flex', justifyContent: 'start', flexWrap: 'wrap', gap: '8px', marginBottom: '10px'}}>
+<md-filled-tonal-button>学年 </md-filled-tonal-button>
+<md-filled-tonal-button>学期 </md-filled-tonal-button>
+<md-filled-tonal-button>培养类型 </md-filled-tonal-button>
+</div>
 
 - 学年
 
-    提供本人大学以来的学年，所以大一新生就无法使用该功能
+    提供大学以来的**各个学年**和**全部**选项，因此大一新生就无法使用该功能
 
 - 学期
 
-    提供了**第一学期**、**第二学期**、**第三学期**三个选项，这里保留了教务系统第三学期的选取，我也不知道有什么用
+    提供了**第一学期**、**第二学期**、**第三学期**三个选项，这里保留了教务系统第三学期的选项，我也不知道有什么用
 
 - 培养类型
 
@@ -63,7 +70,7 @@ description: 成绩功能介绍
 
 ### 科目与成绩
 
-所有科目会以部分显示的方式呈现，每次滑动到最下面会自动加载剩余内容直至结束
+> 所有科目会以部分显示的方式呈现，每次滑动到最下面会自动加载剩余内容直至结束
 
 | 绩点   | 教学班编号 | 课程类别 |
 | ------ | ---------- | -------- |
@@ -77,28 +84,35 @@ description: 成绩功能介绍
 > 在筛选的时候注意*有没有将其他选项给重置后*再筛选
 
 从左到右选项依次为
+<div style = {{display: 'flex', justifyContent: 'start', flexWrap: 'wrap', gap: '8px', marginBottom: '10px'}}>
+<md-filled-tonal-button>培养类型 </md-filled-tonal-button>
+<md-filled-tonal-button>学年学期 </md-filled-tonal-button>
+<md-filled-tonal-button>课程类别 </md-filled-tonal-button>
+<md-filled-tonal-button>课程名称 </md-filled-tonal-button>
+<md-filled-tonal-button>课程编码 </md-filled-tonal-button>
+</div>
 
-- 培养类型
+- #### 培养类型
 
     提供**主修**、**辅修专业**、**双专业**、**双学位**、**辅修微专业**、**辅修学士学位**选项筛选科目
 
-- 学年学期
+- #### 学年学期
 
     注意**默认**和**重置**之后的学年学期都是筛选大学**所有学年**的科目，具体学年学期请自行切换
 
-- 课程类别
+- #### 课程类别
 
     提供**公选**、**公必**、**专选**、**专必**、**荣誉课程**、**辅修课程**选项来筛选科目
 
-- 课程名称
+- #### 课程名称
 
     通过课程名称来筛选科目
 
-- 课程编码
+- #### 课程编码
 
     通过课程编码来筛选科目
 
-- 导出
+- #### 导出
 
     这个按钮在右上方，点击即可跳转到表格查看界面，可以以表格的形式加载当前已加载的所有成绩，点击右下角的复制按钮可以将复制当前表格的Markdown文本
 

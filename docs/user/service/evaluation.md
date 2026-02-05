@@ -2,21 +2,30 @@
 title: 评教
 description: 评教功能介绍
 ---
+import '@material/web/all.js';
+
 # 评教
 
-> 评教界面只实现单选题，评分题，填空题，如果你的评教界面有其他提醒，**切勿**使用功能
+## ⚠️ 注意事项
 
-> 切记看清选项
+- 评教界面只实现单选题，评分题，填空题，如果你的评教界面有其他提醒，**切勿**使用功能
+- 切记看清选项，**不要**选择错误的选项
+- 评教系统的登录机制不一样，所以会出现每次进去可能出现需要重新登录、登录时间特别长的现象，请耐心登录
 
-## 登录说明
+---
 
-评教系统的登录机制不一样，所以会出现每次进去需要重新登录、等待时间特别长的现象，请耐心登录
+## 🗃 工具栏
 
-## 工具栏说明
+<div style = {{display: 'flex', justifyContent: 'start', flexWrap: 'wrap', gap: '8px', marginBottom: '10px'}}>
+<md-filled-tonal-button>保存 </md-filled-tonal-button>
+<md-filled-tonal-button>重置 </md-filled-tonal-button>
+<md-filled-tonal-button>填充 </md-filled-tonal-button>
+<md-filled-tonal-button>提交 </md-filled-tonal-button>
+</div>
 
 ### 保存
 
-将答案保持，下次可以继续编辑，也可以在网页上继续操作。
+将**当前的答案**保存，下次可以继续编辑，也可以在网页上继续操作。
 
 ### 重置
 
@@ -24,7 +33,7 @@ description: 评教功能介绍
 
 ### 填充
 
-将**所有的答案**选择最后一个选项，最高评价，通常为积极评价。
+将**所有的答案**选择最后一个选项，通常为积极评价。
 
 ### 提交
 

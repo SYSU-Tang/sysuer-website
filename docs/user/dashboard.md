@@ -27,7 +27,7 @@ export const Card = ({children}) => (
     backgroundColor: '#005826'
     }}>
   <md-elevation></md-elevation>
-  <div style = {{ lineHeight: '0.75', color: '#fff',  padding: ' 16px 8px 2px 8px'}}> 
+  <div style = {{ lineHeight: '1.0', color: '#fff',  padding: ' 16px 8px 2px 8px'}}> 
     {children}
   </div>
   </div>
@@ -115,8 +115,6 @@ xx:xx:xx
 
 每一科考试会显示`考试名称`、`考试日期`、`时间`、`时长`、`节次`、`考核方式`、`考试阶段`的信息，便于用户及时了解考试时间和考试内容。
 
-
-
 ### 7. 待办表（半成品）
 
 ~~显示未完成和已完成的待办~~，该板块尚未完善，暂不要使用！
@@ -130,7 +128,6 @@ xx:xx:xx
 #### 面板
 
 - [ ] 快捷方式
-- [ ] 进度条
 - [ ] 下节课
 - [ ] 时间表
 - [ ] 课程表

@@ -3,6 +3,7 @@ title: 面板
 description: 用户面板介绍
 sidebar_position: 2
 ---
+import '@material/web/all.js';
 export const Highlight = ({children, color}) => (
   <span
     style={{
@@ -14,6 +15,11 @@ export const Highlight = ({children, color}) => (
     {children}
   </span>
 );
+export const Card = ({children}) => (
+  <div style = {{backgroundColor: '#005826', width: 'auto', minWidth: 'auto', lineHeight: '1.0', maxWidth: '20%', color: '#fff', margin: '10px 0px', padding: '10px', borderRadius: '4px'}}>
+    {children}
+  </div>
+);
 
 # 面板
 
@@ -23,15 +29,40 @@ export const Highlight = ({children, color}) => (
 
 ### 1. 进度条
 
+<md-linear-progress value="0.5" style = {{marginBottom: '10px'}}></md-linear-progress>
+
 显示在最上方，用于显示今天的课程进度，如果当天没有课程，进度条的进度则为0
 
 ### 2. 下节课
 
+<Card>
+
+#### 当前课程
+
+下一节课程：**高等数学**
+
+位置：**逸夫楼201**
+
+时间：**8：00-9：40**
+</Card>
+
 该组件位于进度条下面的左边，用于显示**下一节课的名称、地点和时间**，便于用户及时了解下一节课的信息。
 
 ### 3. 时间表
+<Card>
 
-该组件位于进度条下面的右边，显示**周次**、**学期**、**年月日**、**星期**、**时分秒**
+#### 第xx周
+
+#### 第2025-1学期
+
+#### x月xx日
+
+#### 星期一
+
+08:00:00
+</Card>
+
+该组件位于进度条下面的右边，显示**周次**、**学年学期**、**月份日期**、**星期**、**时分秒**
 
 ### 4. 课程表
 

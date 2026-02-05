@@ -3,7 +3,7 @@ title: 介绍
 description: 中大儿介绍
 sidebar_position: 1
 ---
-import '@material/web/all.js';
+import '@material/web/button/filled-button.js';
 
 # 介绍
 

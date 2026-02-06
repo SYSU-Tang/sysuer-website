@@ -21,7 +21,7 @@ export const Card = ({children}) => (
     borderRadius: '8px',
     height: 'auto',
     width: 'auto',
-    maxWidth: '25%',
+    maxWidth: '50%',
     margin: '16px 0',
     '--md-elevation-level': 2,
     backgroundColor: '#005826'

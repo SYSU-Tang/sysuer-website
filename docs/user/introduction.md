@@ -18,7 +18,12 @@ Sysuer 致力于解决中大同学在校园生活中遇到的痛点。不再需�
 
 开源链接：[https://github.com/sysu-tang/sysuer](https://github.com/sysu-tang/sysuer)
 
-下载链接：<md-filled-button href="https://sysu-tang.github.io/app-release-v1.0.8.apk">中大儿v1.0.8</md-filled-button>
+<div style={{justifyContent: 'start', display: 'flex', alignItems: 'baseline', flexWrap: 'wrap'}}>
+<div>
+下载链接：
+</div>
+<md-filled-button href="https://sysu-tang.github.io/app-release-v1.0.8.apk">中大儿v1.0.8</md-filled-button>
+</div>
 
 ---
 
@@ -27,18 +32,18 @@ Sysuer 致力于解决中大同学在校园生活中遇到的痛点。不再需�
 ### 📚 教务助手
 
 - **课表查询**：同步教务系统课表，支持日视图/周视图，再也不怕走错教室。
-- **课程查询**：本学期成功选上的课程，附带详细信息，点击即可查看课程大纲
+- **课程查询**：本学期成功选上的课程，附带详细信息，点击即可查看课程大纲。
 - **成绩管理**：快速查询各学期成绩（等级制也可以查看具体分数）、绩点 (GPA)。
 - **考试安排**：一目了然的考场与考试时间提醒。
 - **空闲教室**：随时随地查找自习宝地。
 - **选课系统**：支持选课、退课、收藏。
 - **评教助手**：支持一键填写、保存、提交评教记录。
-- **培养方案**：快捷查看个人培养方案
+- **培养方案**：快捷查看个人培养方案。
 
 ### 🔗 网页脚本
 
 - **WeLearn刷题**：自动完成WeLearn的题目。
-- **心理健康视频速通**：一键修改看视频时长。具体使用方法参考指南
+- **心理健康视频速通**：一键修改看视频时长，具体使用方法参考指南。
 
 ### 🌈 校园生活
 

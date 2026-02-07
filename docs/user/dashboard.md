@@ -27,7 +27,7 @@ export const Card = ({children}) => (
     backgroundColor: '#005826'
     }}>
   <md-elevation></md-elevation>
-  <div style = {{ lineHeight: '1.0', color: '#fff',  padding: ' 16px 8px 2px 8px'}}> 
+  <div style = {{color: '#fff',  padding: ' 16px 8px 2px 8px'}}> 
     {children}
   </div>
   </div>

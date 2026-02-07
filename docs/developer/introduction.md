@@ -16,4 +16,13 @@ description: 开发文档
 
 中大儿使用了以下开源项目：
 
-- [Material3]()
+- [Material3](https://github.com/material-components/material-components-android)
+- [androidX](https://developer.android.com/jetpack/androidx)
+- [fastjson2](https://github.com/alibaba/fastjson2)
+- [okHttp](https://square.github.io/okhttp/)
+- [Shizuku](https://github.com/RikkaApps/Shizuku)
+- [Kotlin](https://kotlinlang.org/)
+- [Glide](https://github.com/bumptech/glide)
+- [RikkaX](https://github.com/RikkaApps/RikkaX)
+- [Markwon](https://github.com/noties/Markwon)
+- [Shizuku](https://github.com/RikkaApps/Shizuku)

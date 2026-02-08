@@ -1,7 +1,7 @@
 ---
 title: 面板
 description: 用户面板介绍
-sidebar_position: 2
+sidebar_position: 3
 ---
 import '@material/web/all.js';
 export const Highlight = ({children, color}) => (

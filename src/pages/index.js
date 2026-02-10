@@ -37,7 +37,7 @@ function HomepageHeader() {
           <div className={styles.buttons}>
             <Link
               className="button button--secondary button--lg"
-              href="https://sysu-tang.github.io/app-release-v1.0.8.apk">
+              href="https://sysu-tang.github.io/app-release-v1.0.9.apk">
               下载APP
             </Link>
           </div>

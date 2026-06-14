@@ -2,8 +2,6 @@
 title: 评教
 description: 评教功能介绍
 ---
-import '@material/web/all.js';
-
 # 评教
 
 ## ⚠️ 注意事项

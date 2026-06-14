@@ -109,47 +109,53 @@ const config = {
           },
         ],
       },
-      /* footer: {
-        style: 'dark',
+      footer: {
         links: [
           {
-            title: 'Docs',
+            title: '文档',
             items: [
               {
-                label: '使用',
-                to: '/docs/intro',
+                label: '使用指南',
+                to: '/docs/user/introduction',
+              },
+              {
+                label: '开发文档',
+                to: '/docs/developer/introduction',
               },
             ],
           },
           {
-            title: 'Community',
+            title: '社区',
             items: [
               {
-                label: 'Github',
+                label: 'GitHub',
                 href: 'https://github.com/SYSU-Tang/Sysuer',
               },
               {
-                label: 'QQ',
-                href: '',
+                label: '反馈问题',
+                href: 'https://github.com/SYSU-Tang/Sysuer/issues',
               },
             ],
           },
           {
-            title: 'More',
+            title: '更多',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
+                label: '下载APP',
+                href: 'https://sysu-tang.github.io/app-release-latest.apk',
               },
               {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                label: '用户协议',
+                to: '/docs/userAgreement',
+              },
+              {
+                label: '隐私政策',
+                to: '/docs/privacyPolicy',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
-      }, */
+      },
       prism: {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,

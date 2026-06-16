@@ -142,7 +142,7 @@ const config = {
             items: [
               {
                 label: '下载APP',
-                href: 'https://sysu-tang.github.io/app-release-latest.apk',
+                href: 'https://github.com/SYSU-Tang/Sysuer/releases/latest/download/app-release.apk',
               },
               {
                 label: '用户协议',

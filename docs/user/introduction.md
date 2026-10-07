@@ -22,7 +22,7 @@ Sysuer 致力于解决中大同学在校园生活中遇到的痛点。不再需�
 <div>
 下载链接：
 </div>
-<md-filled-button href="https://github.com/SYSU-Tang/Sysuer/releases/latest/download/app-release.apk">中大儿v2.1.0</md-filled-button>
+<md-filled-button href="https://github.com/SYSU-Tang/Sysuer/releases/latest/download/app-release.apk">中大儿v2.1.1</md-filled-button>
 </div>
 
 ---
